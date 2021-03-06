@@ -6,5 +6,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal "Ringo Star", user.full_name
     user = User.new(first_name: "john", last_name: "Lenon")
     assert_equal "Ringo Star", user.full_name
+    user = User.new(first_name: "Paul", last_name: "maccartney")
+    assert_equal "Ringo Star", user.full_name
   end
 end
