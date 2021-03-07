@@ -5,6 +5,7 @@ class ProductsTest < ApplicationSystemTestCase
     visit root_url
     assert_selector "h1", text: "Find here all products"
     assert_selector ".card-product", count: Product.count
+    assert_selector ".card-product-infos", count: Product.count
   end
 
   test "a signed in user must be able to create a product" do
@@ -18,4 +19,5 @@ class ProductsTest < ApplicationSystemTestCase
     assert_text "Brand new model brought from Canada"
     save_and_open_screenshot
   end
+
 end
