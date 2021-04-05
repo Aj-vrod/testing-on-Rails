@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
 
-puts 'Creating 5 products...'
+puts 'Creating 5 random products...'
 5.times do |i|
   product = Product.create!(
     name: Faker::Company.name,
