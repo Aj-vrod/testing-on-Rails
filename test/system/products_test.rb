@@ -15,5 +15,6 @@ class ProductsTest < ApplicationSystemTestCase
     click_on "Create product"
     assert_equal root_path, page.current_path
     assert_text "Brand new model brought from Canada"
+    save_and_open_screenshot
   end
 end
