@@ -1,6 +1,7 @@
 <h1>Add a new product</h1>
-<%= simple_form_for(@product) do |f| %>
+<%= simple_form_for @product do |f| %>
   <%= f.input :name %>
   <%= f.input :tagline %>
   <%= f.input :url %>
+  <%= f.submit %>
 <% end %>
