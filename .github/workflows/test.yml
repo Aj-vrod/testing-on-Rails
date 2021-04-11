@@ -37,7 +37,6 @@ jobs:
           node-version: "14"
       - name: Yarn install
         run: yarn install --frozen-lockfile
-    steps:
       # [...]
       - name: Prepare DB
         run: | # Pipe is important, adds line breaks
