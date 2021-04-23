@@ -1,1 +1,2 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# Overview
+Simple app that allows users to create products created mainly to code system and unit tests, as well as, workflows on Github Actions.
